@@ -1,6 +1,6 @@
 # Dil
 
-Ein einfacher Editor, der das Arbeiten mit `.vdad`-Dateien ermoeglicht. Die Anwendung basiert auf `tkinter` und kann zu einer Windows-Executable kompiliert werden.
+Ein einfacher Editor fuer `.vdad`-Dateien. Dil bietet Funktionen wie Suchen, anpassbare Schriftgroesse und Tastenkombinationen. Die Anwendung basiert auf `tkinter` und kann zu einer Windows-Executable kompiliert werden.
 
 ## Anforderungen
 * Python 3
@@ -13,12 +13,12 @@ Ein einfacher Editor, der das Arbeiten mit `.vdad`-Dateien ermoeglicht. Die Anwe
    ```
 2. Starten des Editors als Python-Programm:
    ```bash
-   python vdad_editor.py
+   python dil_editor.py
    ```
 3. Erstellen einer Windows-Executable:
    ```bash
-   pyinstaller --onefile vdad_editor.py
+   pyinstaller --onefile dil_editor.py
    ```
    Die fertige `.exe` befindet sich anschliessend im Ordner `dist`.
 
-Der Editor unterstuetzt grundlegende Funktionen wie Neue Datei, Oeffnen, Speichern und Speichern unter.
+Der Editor unterstuetzt nun zusaetzliche Funktionen wie Suchen, einstellbare Schriftgroesse und Tastenkombinationen.
